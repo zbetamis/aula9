@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 0;
+  border: 0;
+  padding:0;
+}
+#menu{
+  width: 96%;
+  height: 100px;
+  margin:2%;
+  background: #1D4350; 
+background: #abbaab;  
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab); 
+background: linear-gradient(to right, #ffffff, #abbaab); 
+  border-radius:10px;
+
+  
+  
+}
+h1{
+  text-shadow:2px 4px 2px white;
+  font-size:45px;
+  font-weight:bolder;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom:2%;
+  text-decoration:underline;
+}
+p{
+  color:gray;
+  font-size:20px;
+  text-align:justify;
+  text-indent: 50px;
+  margin: 0px 10px;
+  font-family: 'Poppins', sans-serif;
+  border-bottom:2px solid black;
+  line-height:1.5;
+  text-shadow:2px 4px 3px gray;
+}
+body{
+ background: #8e9eab;  
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab); 
+background: linear-gradient(to right, #eef2f3, #8e9eab);
+}
+a{
+  text-decoration:none;
+  font-weight:bolder;
+  color:gray;
+}
+a:hover{
+  font-size:20px;
+  font-family:italic;
+  transition:0.7;
+  
+}
+#lateral{
+  display:block;
+  width:35%;
+  height:auto;
+  float:right;
+  margin:2%;
+  border-radius:10px;
+  background: #abbaab;  
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab); 
+background: linear-gradient(to right, #ffffff, #abbaab); 
+  
+}
+ul{
+  list-style:none;
+}
+ul li{
+  padding:10px 0px;
+}
+
+#lat-left{
+  display:inline-block;
+  width:20%;
+  float:left;  
+  margin-left:15%;
+
+}
+#lat-right{
+  display:inline-block;
+  width:20%;
+  float:right;
+  margin-right:15%;
+  
+}
+#indice{
+ display:block;
+  border-radius:10px;
+  margin-left:2%;
+  width:35%;
+  height:auto;
+  float:left;
+  background: #abbaab;  
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab); 
+background: linear-gradient(to right, #ffffff, #abbaab); 
+}
+#indice li{
+  margin-left:15%;
+  margin-top:5%;
+}
+img{
+  display:  block;
+  float:right;
+  width:35%;
+  height:200px;
+  margin-right:2%;
+  
+}
